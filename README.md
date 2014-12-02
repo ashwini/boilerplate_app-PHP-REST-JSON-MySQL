@@ -1,13 +1,18 @@
 Boilerplate PHP/REST/JSON/MySQL app
 ===================================
 
-This is a starting point for a PHP driven app using ReST API, JSON and MySQL
+This is a starting point for a PHP driven app using ReST API, JSON, MySQL and Bootstrap/jQuery for front-end.
 
-Can use this as a backend 'process.php' for handling AJAX requests from jQuery etc, 
-you can include handler functions/classes from a seperate file and just use this as a ReST router also.
+process.php
+-------------
+  Error logging enabled in .PHP processor, MySQL PDO query method and some conveinence functions for JSON output in the app.
+  TODO: Make class, private/public interfaces
 
-Error logging enabled by default, MySQL PDO query method and some conveinence functions for JSON output in the app.
+show_data.html
+---------------
+  Requires jQuery and Bootstrap include files, and also ajax loading "spinner" gif asset :)
+  TODO: Table to display returned data
+  
 
-TODO: Make class, private/public interfaces
-
-
+  
+  
