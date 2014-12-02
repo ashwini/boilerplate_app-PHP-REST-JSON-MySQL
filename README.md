@@ -3,6 +3,8 @@ Boilerplate PHP/REST/JSON/MySQL app
 
 This is a starting point for a PHP driven app using ReST API, JSON, MySQL and Bootstrap/jQuery for front-end.
 
+It should be fast, simple, and the UI should be compliant and responsive. Hopefully this code gets better with time :)
+
 process.php
 -------------
   Error logging enabled in .PHP processor, MySQL PDO query method and some conveinence functions for JSON output in the app.
